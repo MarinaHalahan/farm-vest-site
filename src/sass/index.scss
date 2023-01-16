@@ -1,5 +1,9 @@
-@import './utils/variables';
-@import './common';
-@import './example';
-@import './style';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'utils/variables';
+
 @import 'components/buttons';
+
+@import 'layout/wrapper';
+@import 'layout/header';
