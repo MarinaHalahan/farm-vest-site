@@ -10,8 +10,16 @@
   display: flex;
   align-items: center;
 }
-// .header__logo {
-// }
+.header__logo {
+  width: 146px;
+  img {
+    max-width: 100%;
+  }
+  @media screen and (max-width: 767.98px) {
+    width: 120px;
+  }
+}
+
 .header__menu {
   flex: 1 1 auto;
 }
@@ -23,7 +31,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    row-gap: 10px;
     gap: 44px;
+    @media screen and (max-width: 767.98px) {
+      gap: 15px;
+    }
   }
   // &__item {
   // }
